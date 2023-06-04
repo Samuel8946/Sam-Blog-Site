@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding-bottom: 1000px;
+}
+
+/* Custom scroll-bar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #838588b6; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #585555; 
+}
+
+/* Nav-bar */
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  background-color: black;
+  padding: 10px 10px;
+  color: white;
+  font-family: Arial;
+}
+
+
+.links a, li {
+  display: flex;
+  flex-direction: row;
+  text-decoration:none;
+  font-size: 20px;
+  margin-right: 3vw;
+  color: white;
+  list-style-type: none;
+}
+
+.links {
+  display:flex;
+  }
+
+.logo {
+  display: flex;
+  justify-content: start;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Main- Page */
+
+.main-content {
+  display: flex;
+  position: relative;
+  top: 200px;
+  justify-content: center;
+}
+
+.profile-pic {
+  float: right;
+  border-radius: 90px;
+  position: absolute;
+  bottom: -70px;
+  border-style: solid;
+  border-color: rgb(109, 109, 219);
+}
+
+.intro > p {
+  display: inline-block;
+  width: 600px;
+  font-size: 20px;
+  font-family: Pacifico, Arial;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
